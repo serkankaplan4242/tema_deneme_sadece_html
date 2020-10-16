@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------ desktops  -------------- */
+@media screen and (max-width: 992px), (min-width: 992px) {
+  @include navbar();
+}
+
+/* ------------ tablets  -------------- */
+@media only screen and (max-width: 768px) {
+  @include navbar();
+}
+
+/* ------------ phones  -------------- */
+@media only screen and (max-width: 576px) {
+  @include navbar();
+}

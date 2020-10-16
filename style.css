@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ------------ desktops  -------------- */
+@media screen and (max-width: 992px), (min-width: 992px) {
+  .navbar {
+    background-color: #f5bb00;
+    padding: 0px;
+    height: 60px;
+    margin: 0px;
+  }
+  .container-fluid {
+    padding: 0px;
+    margin: 0px;
+  }
+  .logo_bg {
+    padding-left: 180px;
+    padding-top: 5px;
+    padding-right: 30px;
+    height: 60px;
+    margin: 0px;
+    background-color: ghostwhite;
+  }
+  .navbar-toggler {
+    background-color: darkorange;
+    color: #f8f9fa;
+    height: 60px;
+  }
+}
+
+/* ------------ tablets  -------------- */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #f5bb00;
+    padding: 0px;
+    height: 60px;
+    margin: 0px;
+  }
+  .container-fluid {
+    padding: 0px;
+    margin: 0px;
+  }
+  .logo_bg {
+    padding-left: 180px;
+    padding-top: 5px;
+    padding-right: 30px;
+    height: 60px;
+    margin: 0px;
+    background-color: ghostwhite;
+  }
+  .navbar-toggler {
+    background-color: darkorange;
+    color: #f8f9fa;
+    height: 60px;
+  }
+}
+
+/* ------------ phones  -------------- */
+@media only screen and (max-width: 576px) {
+  .navbar {
+    background-color: #f5bb00;
+    padding: 0px;
+    height: 60px;
+    margin: 0px;
+  }
+  .container-fluid {
+    padding: 0px;
+    margin: 0px;
+  }
+  .logo_bg {
+    padding-left: 180px;
+    padding-top: 5px;
+    padding-right: 30px;
+    height: 60px;
+    margin: 0px;
+    background-color: ghostwhite;
+  }
+  .navbar-toggler {
+    background-color: darkorange;
+    color: #f8f9fa;
+    height: 60px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
